@@ -1,0 +1,7 @@
+#DEVELOPER MODE
+settings> about> software info> Build Number  tap 7 times
+developer mode > usb debugging on
+select USB configuration > PTP
+
+connect USB 
+allow 
