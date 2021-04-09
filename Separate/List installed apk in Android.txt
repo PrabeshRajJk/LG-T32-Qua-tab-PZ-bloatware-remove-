@@ -1,0 +1,20 @@
+ 
+ # list packages A
+ then 
+ To list all the installed packages on an Android device
+  pm list packages
+ To list only 3rd party (or non-system) packages, use the “-3” option.
+ pm list packages -3
+
+To list only the system packages, use the “-s” option.
+ pm list packages -s
+ 
+ To list the package names as well as the path to the installed APK files, use the “-f” option.
+ pm list packages -f
+ 
+ #list packages B
+ dowload the app Package Name Viewer
+ https://play.google.com/store/apps/details?id=com.csdroid.pkg&hl=en_US&gl=US
+ install 
+ to install via adb 
+ ./adb install apkname.apk
