@@ -1,0 +1,8 @@
+#To Factory reset
+turn off device
+
+press power & volume - together
+release power button once on briefly
+and press power button again 
+
+volume - keep pressing
