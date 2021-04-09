@@ -1,0 +1,27 @@
+Au PackageNames
+
+pm uninstall --user 0 com.kddi.android.lismobookstore
+pm uninstall --user 0 com.kddi.android.smartpass
+pm uninstall --user 0 com.kddi.disasterapp
+pm uninstall --user 0 com.kddi.auoneshopping
+pm uninstall --user 0 com.kddi.android.UtaPass
+pm uninstall --user 0 com.kddi.android.mieruka
+pm uninstall --user 0 com.kddi.android.auhomelauncher
+pm uninstall --user 0 com.kddi.cs.app001
+pm uninstall --user 0 com.kddi.android.klop
+pm uninstall --user 0 com.kddi.android.aumanagementsystem
+pm uninstall --user 0 com.kddi.android.au_wifi_connect2
+pm uninstall --user 0 com.kddi.pass.launcher
+pm uninstall --user 0 com.kddi.datacharge
+pm uninstall --user 0 com.uievolution.gguide.android
+pm uninstall --user 0 pm uninstall --user 0 com.kddi.android.repairreceipt
+pm uninstall --user 0 com.kddi.android.checker_android
+pm uninstall --user 0 com.kddi.market
+pm uninstall --user 0 com.kddi.ux.station
+pm uninstall --user 0 com.kddi.android.au_setting_menu
+pm uninstall --user 0 com.kddi.android.easysettingwizard
+pm uninstall --user 0 com.kddi.android.auoneidsetting
+pm uninstall --user 0 com.kddi.android.ausharelink
+pm uninstall --user 0 jp.co.optim.oru
+pm uninstall --user 0 jp.auone.wallet
+pm uninstall --user 0 web.wm.auone.jp
