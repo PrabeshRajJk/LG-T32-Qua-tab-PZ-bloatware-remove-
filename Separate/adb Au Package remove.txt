@@ -14,7 +14,7 @@ pm uninstall --user 0 com.kddi.android.au_wifi_connect2
 pm uninstall --user 0 com.kddi.pass.launcher
 pm uninstall --user 0 com.kddi.datacharge
 pm uninstall --user 0 com.uievolution.gguide.android
-pm uninstall --user 0 pm uninstall --user 0 com.kddi.android.repairreceipt
+pm uninstall --user 0 com.kddi.android.repairreceipt
 pm uninstall --user 0 com.kddi.android.checker_android
 pm uninstall --user 0 com.kddi.market
 pm uninstall --user 0 com.kddi.ux.station
@@ -25,3 +25,12 @@ pm uninstall --user 0 com.kddi.android.ausharelink
 pm uninstall --user 0 jp.co.optim.oru
 pm uninstall --user 0 jp.auone.wallet
 pm uninstall --user 0 web.wm.auone.jp
+pm uninstall --user 0 jp.netstar.familysmile
+pm uninstall --user 0 com.kddi.android.kddigallery
+pm uninstall --user 0 com.kddi.android.mamoru
+pm uninstall --user 0 com.kddiandroid.email
+pm uninstall --user 0 com.kddi.emailprov
+pm uninstall --user 0 com.kddi.android.imp
+pm uninstall --user 0 com.real.RealPlayerCloud
+pm uninstall --user 0 com.kddi.ar.satch.satchviewer
+
