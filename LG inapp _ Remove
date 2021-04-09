@@ -1,0 +1,7 @@
+# delete some LG system apps
+
+# delete TV
+pm uninstall --user 0 com.lge.oneseg
+
+#delete Info clock
+pm uninstall --user 0 com.lge.srw
