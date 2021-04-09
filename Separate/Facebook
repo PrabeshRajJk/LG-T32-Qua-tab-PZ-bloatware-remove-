@@ -1,0 +1,5 @@
+Facebook
+
+pm uninstall --user 0 com.facebook.katana
+pm uninstall --user 0 com.facebook.system
+pm uninstall --user 0 com.facebook.appmanager
