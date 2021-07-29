@@ -1,14 +1,65 @@
-# Safe Remove
-pm uninstall --user 0 com.google.android.talk
-pm uninstall --user 0 com.google.android.apps.magazines
-pm uninstall --user 0 com.google.android.talk
-pm uninstall --user 0 com.google.android.videos
-pm uninstall --user 0 com.google.android.youtube
-pm uninstall --user 0 com.google.android.apps.photos
-pm uninstall --user 0 com.google.android.apps.maps
-pm uninstall --user 0 com.google.android.googlequicksearchbox
-pm uninstall --user 0 com.google.android.music
-pm uninstall --user 0 com.google.android.apps.docs
+# Safe Remove bloatware 
+wait-for-device
+# uninstalling LG Apps
+./adb shell
+pm uninstall --user 0 com.lge.srw
+pm uninstall --user 0 com.android.LGSetupWizard
+pm uninstall --user 0 com.lge.appbox.client
+pm uninstall --user 0 com.lge.bnr
+pm uninstall --user 0 com.lge.cic.eden.service
+pm uninstall --user 0 com.lge.easyhome
+pm uninstall --user 0 com.lge.drmservice
+pm uninstall --user 0 com.lge.eltest
+pm uninstall --user 0 com.lge.email
+pm uninstall --user 0 com.lge.eula
+pm uninstall --user 0 com.lge.eulaprovider
+pm uninstall --user 0 com.lge.fmradio
+pm uninstall --user 0 com.lge.friendsmanager
+pm uninstall --user 0 com.lge.gestureanswering
+pm uninstall --user 0 com.lge.clock
+pm uninstall --user 0 com.lge.cloudhub
+pm uninstall --user 0 com.lge.oneseg
+pm uninstall --user 0 com.lge.lgdmsclient
+pm uninstall --user 0 com.lge.smartsharepush
+pm uninstall --user 0 com.lge.homeselector
+pm uninstall --user 0 com.android.managedprovisioning
+pm uninstall --user 0 com.lge.updatecenter
+pm uninstall --user 0 com.lge.videoplayer
+pm uninstall --user 0 com.lge.videotool
+pm uninstall --user 0 com.lge.gestureanswering
+pm uninstall --user 0 com.lge.srw
+pm uninstall --user 0 com.lge.LGsetupView
+pm uninstall --user 0 com.android.wallpaper.livewallpaper
+pm uninstall --user 0 com.android.wallpaper.livepicker
+pm uninstall --user 0 com.lge.cic.eden.media
+pm uninstall --user 0 com.lge.appbox.client
+pm uninstall --user 0 com.lge.gcuv
+pm uninstall --user 0 com.lge.gnss.airtest
+pm uninstall --user 0 com.lge.gnsslogcat
+pm uninstall --user 0 com.lge.gnsspostest
+pm uninstall --user 0 com.lge.lginstallservies
+pm uninstall --user 0 com.lge.LGSetupView
+pm uninstall --user 0 com.lge.mlt
+pm uninstall --user 0 com.lge.music
+pm uninstall --user 0 com.lge.sizechangable.musicwidget.widget
+pm uninstall --user 0 com.lge.sizechangable.weather.platform
+pm uninstall --user 0 com.lge.smartshare
+pm uninstall --user 0 com.lge.smartshare.provider
+pm uninstall --user 0 com.lge.wfds.service.v3
+pm uninstall --user 0 com.lge.wifi.p2p
+pm uninstall --user 0 com.lge.lgmapui
+pm uninstall --user 0 com.lge.oneseg
+pm uninstall --user 0 com.lge.srw
+pm uninstall --user 0 com.lookout
+pm uninstall --user 0 com.lge.srw
+pm uninstall --user 0 com.kddi.android.auhomelauncher
+pm uninstall --user 0 com.kddi.android.mieruka
+pm uninstall --user 0 com.kddi.android.UtaPass
+pm uninstall --user 0 com.kddi.android.smartpass
+pm uninstall --user 0 com.kddi.android.lismobookstore
+
+QUA AU apps
+./adb shell
 pm uninstall --user 0 com.kddi.android.lismobookstore
 pm uninstall --user 0 com.kddi.android.smartpass
 pm uninstall --user 0 com.kddi.android.UtaPass
@@ -32,6 +83,7 @@ pm uninstall --user 0 com.kddi.android.auoneidsetting
 pm uninstall --user 0 com.kddi.android.ausharelink
 pm uninstall --user 0 com.kddi.android.kddigallery
 pm uninstall --user 0 com.kddi.android.mamoru
+pm uninstall --user 0 com.kddi.android.cmail
 pm uninstall --user 0 com.kddi.android.email
 pm uninstall --user 0 com.kddi.android.emailprov
 pm uninstall --user 0 com.kddi.android.imp
@@ -44,20 +96,63 @@ pm uninstall --user 0 jp.netstar.familysmile
 pm uninstall --user 0 jp.co.ise.lgt32.instructionmanual
 pm uninstall --user 0 jp.co.omronsoft.iwnnime.ml
 pm uninstall --user 0 web.wm.auone.jp
+pm uninstall --user 0 com.kddi.extcontroldevice
+
+wait-for-device
+
+AM/FM RADIO
+pm uninstall --user 0 com.dsi.ant.sample.acquirechannels
+pm uninstall --user 0 com.dsi.ant.service.socket
+pm uninstall --user 0 com.dsi.ant.server
+pm uninstall --user 0 com.dsi.ant.plugins.antplus
+
+
+FACEBOOK
 pm uninstall --user 0 com.facebook.katana
 pm uninstall --user 0 com.facebook.system
 pm uninstall --user 0 com.facebook.appmanager
-pm uninstall --user 0 com.google.android.talk
+pm uninstall --user 0 com.facebook.services
+
+FLIPBOARD
+pm uninstall --user 0 flipboard.boxer.app
+
+GENERAL
+pm uninstall --user 0 com.android.egg
+pm uninstall --user 0 com.android.dreams.phototable
+pm uninstall --user 0 com.sec.android.easyonehand
+pm uninstall --user 0 com.sec.android.app.launcher
+pm uninstall --user 0 com.sec.android.easyMover.Agent
+pm uninstall --user 0 com.android.dreams.basic
+pm uninstall --user 0 com.sec.android.daemonapp
+
+GOOGLE:
+pm uninstall --user 0 com.google.android.gm
+pm uninstall --user 0 com.google.android.videos
+pm uninstall --user 0 com.google.ar.core
+pm uninstall --user 0 com.google.android.googlequicksearchbox
 pm uninstall --user 0 com.google.android.apps.magazines
-pm uninstall --user 0 com.google.android.talk
 pm uninstall --user 0 com.google.android.videos
 pm uninstall --user 0 com.google.android.youtube
+pm uninstall --user 0 com.google.android.music
+pm uninstall --user 0 com.android.chrome
+pm uninstall --user 0 com.google.android.talk
+pm uninstall --user 0 com.google.android.tts
+pm uninstall --user 0 com.google.android.apps.docs
 pm uninstall --user 0 com.google.android.apps.photos
 pm uninstall --user 0 com.google.android.apps.maps
-pm uninstall --user 0 com.google.android.googlequicksearchbox
-pm uninstall --user 0 com.google.android.music
 pm uninstall --user 0 com.google.android.apps.docs
+pm uninstall --user 0 com.google.android.feedback
+pm uninstall --user 0 com.google.android.partnersetup
+pm uninstall --user 0 com.google.android.apps.cloudprint
+pm uninstall --user 0 com.google.android.marvin.talkback
 
-pm uninstall --user 0 com.lge.oneseg
-pm uninstall --user 0 com.lge.srw
+MICROSOFT:
+pm uninstall --user 0 com.microsoft.skydrive
 
+PRINTING:
+pm uninstall --user 0 com.android.bips
+pm uninstall --user 0 com.google.android.printservice.recommendation
+pm uninstall --user 0 com.android.printspooler
+
+#Installing apps
+./adb install Package_name.apk
