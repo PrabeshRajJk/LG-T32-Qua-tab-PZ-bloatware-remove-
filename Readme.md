@@ -4,11 +4,24 @@ REMOVING ALL THE BLOATWARE (preinstall au apps) on LGT32 Qua tab PZ
 turn off device
 
 press power & volume - together
-release power button once on briefly
-and press power button again 
+keep holding volume - 
+release power button once briefly and press power button again 
 
-volume - keep pressing
-
+imp :volume - keep pressing
+ 
+ Note
+ To Force Restart (if stucked on android logo)
+ press power & volume - together   until screen goes off (power off)
+ Power button to start your device
+ 
+ if still stuck on android screen
+ 
+Step 1: Press and hold the Volume down button, Home button, and power button all at the same time.
+Step 2: When you see the Android icon, release the power button, but keep holding the other two buttons until the recovery screen appears.
+Step 3: Use the volume buttons to highlight the "Wipe Cache Partition" option and press the power button to initiate the process.
+ 
+ if it fails
+ FACTORY RESET
 _______________________________________
 
 #DEVELOPER MODE
