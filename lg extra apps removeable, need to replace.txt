@@ -1,0 +1,29 @@
+# this apps can be removed if you want to install other apps in replace of these apps
+# use pm install package_name.apk
+./adb shell
+pm uninstall --user 0 com.real.RealPlayerCloud
+pm uninstall --user 0 com.lge.clock
+pm uninstall --user 0 com.lge.clock.AlarmClockActivity
+pm uninstall --user 0 com.lge.videotool
+pm uninstall --user 0 com.android.gallery3d
+pm uninstall --user 0 com.android.gallery3d.app.Gallery
+pm uninstall --user 0 com.android.calendar
+pm uninstall --user 0 com.android.calendar.AllInOneActivity
+pm uninstall --user 0 com.lge.lgmapui
+pm uninstall --user 0 com.lge.voicerecorder
+pm uninstall --user 0 com.lge.voicerecorder.LaunchVoiceRecorder
+pm uninstall --user 0 com.lge.cloudhub
+pm uninstall --user 0 com.lge.music
+pm uninstall --user 0 com.lge.music.MusicBrowserActivity
+pm uninstall --user 0 com.android.contacts
+pm uninstall --user 0 com.android.contacts.activities.PeopleActivity
+pm uninstall --user 0 com.lge.sizechangable.weather.platform
+pm uninstall --user 0 com.lge.filemanager
+pm uninstall --user 0 com.lge.filemanager.view.LaunchActivity
+pm uninstall --user 0 com.lge.videoplayer
+pm uninstall --user 0 com.android.wallpaper.livepicker
+pm uninstall --user 0 com.kddi.android.imp
+pm uninstall --user 0 com.lookout
+pm uninstall --user 0 com.lookout.ui.LoadDispatch
+pm uninstall --user 0 com.lge.filemanager
+
