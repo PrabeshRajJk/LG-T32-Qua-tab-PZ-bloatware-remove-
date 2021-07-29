@@ -1,0 +1,8 @@
+# keep apk file in same location where adb is being run from
+
+#Installing apps
+./adb install Package_Names.apk
+
+./adb install VLC-Android-x86_64.apk
+./adb install Keyboard.apk
+./adb install tubemate-3-4-3.apk
