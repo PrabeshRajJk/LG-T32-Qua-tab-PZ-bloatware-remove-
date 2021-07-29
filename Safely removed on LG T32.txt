@@ -1,5 +1,16 @@
 # Safe Remove bloatware 
+# LG 
+# Android Nougat 7.0
+# SDK No 24
+# build number NRD90U
+# OS bit 32 (armv7I)
+
 wait-for-device
+#Installing apps
+./adb install Package_Names.apk
+./adb install VLC-Android-x86_64.apk
+./adb install Nepali_Keyboard.apk
+./adb install tubemate-3-4-3.apk
 # uninstalling LG Apps
 ./adb shell
 pm uninstall --user 0 com.lge.srw
@@ -51,14 +62,16 @@ pm uninstall --user 0 com.lge.lgmapui
 pm uninstall --user 0 com.lge.oneseg
 pm uninstall --user 0 com.lge.srw
 pm uninstall --user 0 com.lookout
-pm uninstall --user 0 com.lge.srw
-pm uninstall --user 0 com.kddi.android.auhomelauncher
-pm uninstall --user 0 com.kddi.android.mieruka
-pm uninstall --user 0 com.kddi.android.UtaPass
-pm uninstall --user 0 com.kddi.android.smartpass
-pm uninstall --user 0 com.kddi.android.lismobookstore
 
-QUA AU apps
+#lg services check before uninstalling
+pm uninstall --user 0 com.lge.android.atservice
+pm uninstall --user 0 com.lge.lgdmsclient
+pm uninstall --user 0 com.redbend.client
+pm uninstall --user 0 com.qualcomm.qcrilmsgtunnel
+
+
+
+# Delete Au Apps
 ./adb shell
 pm uninstall --user 0 com.kddi.android.lismobookstore
 pm uninstall --user 0 com.kddi.android.smartpass
@@ -98,8 +111,26 @@ pm uninstall --user 0 jp.co.omronsoft.iwnnime.ml
 pm uninstall --user 0 web.wm.auone.jp
 pm uninstall --user 0 com.kddi.extcontroldevice
 
-wait-for-device
+# uninstalling Google apps
+./adb shell
+pm uninstall --user 0 com.google.android.googlequicksearchbox
+pm uninstall --user 0 com.google.android.apps.magazines
+pm uninstall --user 0 com.google.android.videos
+pm uninstall --user 0 com.google.android.youtube
+pm uninstall --user 0 com.google.android.music
+pm uninstall --user 0 com.android.chrome
+pm uninstall --user 0 com.google.android.talk
+pm uninstall --user 0 com.google.android.tts
+pm uninstall --user 0 com.google.android.apps.docs
+pm uninstall --user 0 com.google.android.apps.photos
+pm uninstall --user 0 com.google.android.apps.maps
+pm uninstall --user 0 com.google.android.apps.docs
+pm uninstall --user 0 com.google.android.feedback
+pm uninstall --user 0 com.google.android.partnersetup
+pm uninstall --user 0 com.google.android.apps.cloudprint
+pm uninstall --user 0 com.google.android.marvin.talkback
 
+wait-for-device
 AM/FM RADIO
 pm uninstall --user 0 com.dsi.ant.sample.acquirechannels
 pm uninstall --user 0 com.dsi.ant.service.socket
@@ -129,30 +160,11 @@ GOOGLE:
 pm uninstall --user 0 com.google.android.gm
 pm uninstall --user 0 com.google.android.videos
 pm uninstall --user 0 com.google.ar.core
-pm uninstall --user 0 com.google.android.googlequicksearchbox
-pm uninstall --user 0 com.google.android.apps.magazines
-pm uninstall --user 0 com.google.android.videos
-pm uninstall --user 0 com.google.android.youtube
-pm uninstall --user 0 com.google.android.music
-pm uninstall --user 0 com.android.chrome
-pm uninstall --user 0 com.google.android.talk
-pm uninstall --user 0 com.google.android.tts
-pm uninstall --user 0 com.google.android.apps.docs
-pm uninstall --user 0 com.google.android.apps.photos
-pm uninstall --user 0 com.google.android.apps.maps
-pm uninstall --user 0 com.google.android.apps.docs
-pm uninstall --user 0 com.google.android.feedback
-pm uninstall --user 0 com.google.android.partnersetup
-pm uninstall --user 0 com.google.android.apps.cloudprint
-pm uninstall --user 0 com.google.android.marvin.talkback
 
-MICROSOFT:
+MICROSOFT
 pm uninstall --user 0 com.microsoft.skydrive
 
-PRINTING:
+PRINTING
 pm uninstall --user 0 com.android.bips
 pm uninstall --user 0 com.google.android.printservice.recommendation
 pm uninstall --user 0 com.android.printspooler
-
-#Installing apps
-./adb install Package_name.apk
